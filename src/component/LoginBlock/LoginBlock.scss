@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+html {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+div.login-elements {
+  width: 300px;
+  margin: auto;
+  margin-top: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  div.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    button {
+      border: 1px solid #FFCC40;
+      border-radius: 6px;
+      padding: 0.5em 2em;
+      background-color: #FFDA73;
+      box-shadow: 1px 3px 5px #FFBB00;
+      font-size: 1em;
+      //transition: ;
+    }
+  }
+
+  div.token-info {
+    margin-top: 10px;
+    color: #999;
+
+    //transition: 0.3s;
+
+    &.exist {
+      color: #343434;
+    }
+  }
+}
