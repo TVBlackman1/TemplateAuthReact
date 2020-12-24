@@ -1,3 +1,11 @@
+# Template for react auth
+
+This is template for adding authentication to site worked on react. It has 2 files, that can interact with project.
+
+#Model of project
+
+![alt text](screenshots/diagram.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

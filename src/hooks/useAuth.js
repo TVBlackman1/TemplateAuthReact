@@ -1,8 +1,11 @@
 import {useAuthContent} from "../content/AuthContent";
 
+
+/**
+ *
+ * @returns {{logout: logout, login: login}}
+ */
 export function useAuth() {
-
-
     const auth = useAuthContent()
     function login(data) {
         // data - login, password...

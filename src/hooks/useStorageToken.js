@@ -4,7 +4,7 @@ const localStorageToken = "userToken"
 /**
  * This function is using for getting and setting user token in localStorage.
  * Called from useAuth for authorization and from AuthContext.
- * @returns {{setToken: function, removeToken: function, getToken: function}}
+ * @return {{removeStorageToken: removeStorageToken, getStorageToken: (function(): string), setStorageToken: setStorageToken}}
  */
 export function useStorageToken() {
     function setStorageToken(token) {

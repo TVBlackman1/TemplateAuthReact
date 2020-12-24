@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import {AuthProvider} from "./content/AuthContent";
 import { LoginBlock } from "./component/LoginBlock/LoginBlock"
-//
+
 
 function App() {
   return (
